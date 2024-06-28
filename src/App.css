@@ -1,0 +1,39 @@
+#root {
+    background-color: #f3fafe    ;
+    display: flex;
+    height: 100vh;
+    
+    aside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 265px;
+        background-color: #fff;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.05), 0 0 2px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #f3fafe;
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+            height: 65px;
+            background-color: red;
+        }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            overflow: auto;
+        }
+    }
+}
